@@ -1,0 +1,30 @@
+
+0.
+	properties - resource
+		utf-8
+		unix
+
+1.
+	NAME_SPACE에 . 안찍음
+
+2.
+	sqlSession.selectList 호출 파라미터 오류
+	+ p 라고 했는데 ... , p 임
+
+3. 
+	db 설정 변경 후 테스트
+
+	- context-datasource.xml에 설정 
+		server 것으로 변경
+	- sql-code.xml 
+		쿼리문 서버것으로 변경
+
+	- BmCodeVo.java
+		서버 출력 필드값 추가
+	- list.jsp
+		출력 결과값 서버 것으로 변경
+
+4. 필터 추가
+	- 필터를 추가하면 한글이 안깨지고 보임.
+	- web.xml
+
